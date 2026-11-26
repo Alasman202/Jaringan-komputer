@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaringan Komputer - Alasman Gaurifa</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f1f5f9;color:#1e293b}
+header{background:#0f172a;color:white;padding:40px 20px;text-align:center}
+header h1{margin:0;font-size:32px}
+header p{color:#94a3b8}
+nav{background:#1e293b;padding:12px;text-align:center}
+nav a{color:white;text-decoration:none;margin:0 10px;font-weight:bold}
+.container{max-width:800px;margin:auto;padding:20px}
+.card{background:white;padding:20px;border-radius:12px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+.card h2{color:#0f172a;margin-top:0}
+.badge{display:inline-block;background:#22c55e;color:white;padding:5px 12px;border-radius:20px;font-size:13px}
+footer{background:#0f172a;color:white;text-align:center;padding:20px;margin-top:20px}
+</style>
+</head>
+<body>
+<header>
+<h1>JARINGAN KOMPUTER</h1>
+<p>Project Tugas Kuliah - Jaringan Komputer</p>
+<span class="badge">Alasman Gaurifa</span>
+</header>
+<nav>
+<a href="#pengertian">Pengertian</a>
+<a href="#jenis">Jenis</a>
+<a href="#topologi">Topologi</a>
+<a href="#perangkat">Perangkat</a>
+</nav>
+<div class="container">
+<div class="card" id="pengertian">
+<h2>1. Pengertian Jaringan Komputer</h2>
+<p>Jaringan komputer adalah sekumpulan komputer dan perangkat lain yang saling terhubung untuk berbagi data, informasi, dan sumber daya seperti printer dan internet.</p>
+<p>Tujuan utamanya adalah agar komunikasi menjadi lebih cepat, mudah, dan efisien.</p>
+</div>
+<div class="card" id="jenis">
+<h2>2. Jenis-Jenis Jaringan</h2>
+<p><b>LAN (Local Area Network):</b> Jaringan dalam satu ruangan / gedung, contoh: Lab Komputer, Warnet.</p>
+<p><b>MAN (Metropolitan Area Network):</b> Jaringan dalam satu kota, contoh: Jaringan antar kampus dalam satu kota.</p>
+<p><b>WAN (Wide Area Network):</b> Jaringan antar kota / negara, contoh: Internet.</p>
+</div>
+<div class="card" id="topologi">
+<h2>3. Topologi Jaringan</h2>
+<p><b>Topologi Bus:</b> Semua komputer terhubung ke satu kabel utama. Murah tapi kalau kabel putus, semua terganggu.</p>
+<p><b>Topologi Star:</b> Semua komputer terhubung ke Switch / Hub pusat. Paling banyak dipakai sekarang.</p>
+<p><b>Topologi Ring:</b> Komputer terhubung melingkar, data berputar satu arah.</p>
+<p><b>Topologi Mesh:</b> Setiap komputer terhubung ke semua komputer lain. Paling stabil tapi mahal.</p>
+</div>
+<div class="card" id="perangkat">
+<h2>4. Perangkat Jaringan</h2>
+<p>1. <b>Router</b> - Menghubungkan jaringan ke internet</p>
+<p>2. <b>Switch</b> - Menghubungkan banyak komputer dalam LAN</p>
+<p>3. <b>Kabel UTP / LAN</b> - Media penghubung</p>
+<p>4. <b>Access Point</b> - Untuk jaringan WiFi</p>
+<p>5. <b>Modem</b> - Mengubah sinyal internet</p>
+</div>
+<div class="card">
+<h2>5. Kesimpulan</h2>
+<p>Jaringan komputer sangat penting di era digital. Tanpa jaringan, kita tidak bisa mengakses internet, berbagi file, dan berkomunikasi jarak jauh dengan cepat.</p>
+</div>
+</div>
+<footer>
+<p>Dibuat oleh: <b>Alasman Gaurifa</b></p>
+<p>Project Jaringan Komputer - 2026</p>
+</footer>
+</body>
+</html>
